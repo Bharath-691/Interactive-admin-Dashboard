@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="new 7.css">
+
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="logo">
+            <h2>AdminPro</h2>
+        </div>
+
+        <ul class="menu">
+
+            <li class="active">
+                <i class="fa-solid fa-house"></i> Dashboard
+            </li>
+
+            <li>
+                <i class="fa-solid fa-users"></i> Users
+            </li>
+
+            <li>
+                <i class="fa-solid fa-chart-line"></i> Analytics
+            </li>
+
+            <li>
+                <i class="fa-solid fa-cart-shopping"></i> Orders
+            </li>
+
+            <li>
+                <i class="fa-solid fa-gear"></i> Settings
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <!-- Navbar -->
+        <header class="navbar">
+
+            <div class="left-nav">
+
+                <button class="menu-btn" id="menuBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <h1>Dashboard</h1>
+
+            </div>
+
+            <div class="right-nav">
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input type="text" placeholder="Search...">
+                </div>
+
+                <button class="dark-btn" id="darkModeBtn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <div class="profile">
+                    <img src="https://i.pravatar.cc/40" alt="profile">
+
+                    <span>Admin</span>
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- Cards -->
+        <section class="cards">
+
+            <div class="card">
+
+                <div>
+                    <h3>Total Users</h3>
+                    <p>1,250</p>
+                </div>
+
+                <i class="fa-solid fa-users"></i>
+
+            </div>
+
+            <div class="card">
+
+                <div>
+                    <h3>Revenue</h3>
+                    <p>₹85,000</p>
+                </div>
+
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            </div>
+
+            <div class="card">
+
+                <div>
+                    <h3>Orders</h3>
+                    <p>320</p>
+                </div>
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+
+            <div class="card">
+
+                <div>
+                    <h3>Growth</h3>
+                    <p>+18%</p>
+                </div>
+
+                <i class="fa-solid fa-chart-line"></i>
+
+            </div>
+
+        </section>
+
+        <!-- Analytics -->
+        <section class="analytics">
+
+            <div class="chart-card">
+
+                <h2>Monthly Performance</h2>
+
+                <div class="bar-container">
+                    <span>Jan</span>
+                    <div class="bar jan"></div>
+                </div>
+
+                <div class="bar-container">
+                    <span>Feb</span>
+                    <div class="bar feb"></div>
+                </div>
+
+                <div class="bar-container">
+                    <span>Mar</span>
+                    <div class="bar mar"></div>
+                </div>
+
+                <div class="bar-container">
+                    <span>Apr</span>
+                    <div class="bar apr"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Table -->
+        <section class="table-section">
+
+            <h2>Recent Users</h2>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>101</td>
+                            <td>Rahul</td>
+                            <td>Admin</td>
+                            <td>
+                                <span class="status active-status">
+                                    Active
+                                </span>
+                            </td>
+                            <td>
+                                <button>Edit</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>102</td>
+                            <td>Priya</td>
+                            <td>User</td>
+                            <td>
+                                <span class="status pending-status">
+                                    Pending
+                                </span>
+                            </td>
+                            <td>
+                                <button>Edit</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>103</td>
+                            <td>Arjun</td>
+                            <td>Moderator</td>
+                            <td>
+                                <span class="status active-status">
+                                    Active
+                                </span>
+                            </td>
+                            <td>
+                                <button>Edit</button>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- JS File -->
+    <script src="new 8.js"></script>
+
+</body>
+</html>
