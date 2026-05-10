@@ -20,9 +20,9 @@ A modern and responsive Admin Dashboard UI built using HTML, CSS, and JavaScript
 ## 📂 Project Structure
 Interactive-admin-Dashboard/
 │
-├── index.html
-├── style.css
-├── script.js
+├── new6.html
+├── new7.css
+├── new8.js
 └── README.md
 
 ## 🎯 Project Objective
